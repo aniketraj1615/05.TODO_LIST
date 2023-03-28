@@ -20,8 +20,11 @@ window.addEventListener("load", () => {
       done: false,
       createdAt: new Date().getTime(),
     };
-
+    // var message = prompt("What new to add to todo");
+    // console.log(message);
+    // if (message != null) {
     todos.push(todo);
+    // }
 
     localStorage.setItem("todos", JSON.stringify(todos));
 
